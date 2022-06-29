@@ -8,15 +8,8 @@ import {
 } from '@chakra-ui/react';
 import { useState } from 'react';
 
-interface Card {
-  title: string;
-  description: string;
-  url: string;
-  ts: number;
-}
-
 interface CardProps {
-  data: Card;
+  data: ICard;
   viewImage: (url: string) => void;
 }
 
